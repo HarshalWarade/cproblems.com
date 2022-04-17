@@ -29,14 +29,14 @@
     padding: 15px 40px;
     /* border: 2px solid #ff6060; */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    width: 50%;
+    width: 60%;
 }
 .toggle
 {
     width: 100%;
     background-color: transparent;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
@@ -78,4 +78,27 @@
         overflow-x: scroll;
 
     }
+}
+
+.icon__last
+{
+    /* border: 2px solid lime; */
+    margin: 0 10px;
+}
+
+.easy
+{
+    color: yellow;
+}
+.medium
+{
+    color: green;
+}
+.hard
+{
+    color: red;
+}
+.space
+{
+    margin: 0 10px;
 }

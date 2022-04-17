@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>C Problems</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script> -->
     <script
         src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=C&amp;skin=desert"></script>
@@ -27,7 +28,7 @@
             </button>
             <div class="content__last">
                 <p>
-                    <pre class="prettyprint" style="background-color: #272822;">
+                <pre class="prettyprint" style="background-color: #272822;">
                         <code class="language-c">
  #include &lt;stdio.h>
  int main()
@@ -46,7 +47,7 @@
             </button>
             <div class="content__last">
                 <p>
-                    <pre class="prettyprint" style="background-color: #272822;">
+                <pre class="prettyprint" style="background-color: #272822;">
                         <code class="language-c">
  #include &lt;stdio.h>
  int main()
@@ -63,14 +64,14 @@
         </div>
         <div class="wrapper">
             <button class="toggle">
-                Q3] Write a program for a party, which asks for age and the required pass. The condition to enter the
+                <i class="fa-solid fa-star easy"></i> <span class="space"></span> Q3] Write a program for a party, which asks for age and the required pass. The condition to enter the
                 party is, the person must be of 18 years old or above and must have a pass. If the individual has pass
                 use 0 and if not then use 1 (Instead of using 'yes' and 'no').
                 <i class="fa fa-plus icon__last" aria-hidden="true"></i>
             </button>
             <div class="content__last">
                 <p>
-                    <pre class="prettyprint" style="background-color: #272822;">
+                <pre class="prettyprint" style="background-color: #272822;">
                         <code class="language-c">
  #include &lt;stdio.h>
  int main()
@@ -97,14 +98,14 @@
         </div>
         <div class="wrapper">
             <button class="toggle">
-                Q4] Write a program which takes marks out of 100 from a student with three subjects (name the subjects
+                <i class="fa-solid fa-star easy"></i> <i class="fa-solid fa-star easy"></i> <span class="space"></span> Q4] Write a program which takes marks out of 100 from a student with three subjects (name the subjects
                 according to you). The rule to pass is, he/she must score more than 30 marks at least in one subject. If
                 any one subject has marks below 30, he/she fails.
                 <i class="fa fa-plus icon__last" aria-hidden="true"></i>
             </button>
             <div class="content__last">
                 <p>
-                    <pre class="prettyprint" style="background-color: #272822;">
+                <pre class="prettyprint" style="background-color: #272822;">
                         <code class="language-c">
  #include &lt;stdio.h>
  int main()
@@ -133,13 +134,13 @@
         </div>
         <div class="wrapper">
             <button class="toggle">
-                Q5] Write a program that takes a number (radius) as a float from user and returns the area of the
+                <i class="fa-solid fa-star easy"></i> <span class="space"></span> Q5] Write a program that takes a number (radius) as a float from user and returns the area of the
                 circle.
                 <i class="fa fa-plus icon__last" aria-hidden="true"></i>
             </button>
             <div class="content__last">
                 <p>
-                    <pre class="prettyprint" style="background-color: #272822;">
+                <pre class="prettyprint" style="background-color: #272822;">
                         <code class="language-c">
  #include &lt;stdio.h>
  int main()
@@ -159,7 +160,7 @@
 
         <div class="wrapper">
             <button class="toggle">
-                Q6] Write a program that asks student if they know JavaScript, C and Python or not. The rule to enter
+                <i class="fa-solid fa-star medium"></i> <i class="fa-solid fa-star medium"></i> <i class="fa-solid fa-star medium"></i> <span class="space"></span> Q6] Write a program that asks student if they know JavaScript, C and Python or not. The rule to enter
                 the room is, the individual must know how to code in Python and JavaScript, he/she will be allowed if
                 he/she is unknown of JavaScript and Python but knows C. If answer is yes use 0. If no, use 1;
                 <i class="fa fa-plus icon__last" aria-hidden="true"></i>
@@ -193,10 +194,10 @@
         </div>
 
         <div class="wrapper">
-            <button class="toggle">
-                Q7] Write C program to check given number is prime or not.
+            <p class="toggle">
+                <i class="fa-solid fa-star easy"></i> <i class="fa-solid fa-star easy"></i> <span class="space"> </span>Q7] Write C program to check given number is prime or not.
                 <i class="fa fa-plus icon__last" aria-hidden="true"></i>
-            </button>
+            </p>
             <div class="content__last">
                 <p>
                 <pre class="prettyprint" style="background-color: #272822;"><code class="language-c">
@@ -222,6 +223,54 @@
     getch();
     return 0;
  }
+                    </code></pre>
+                </p>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <button class="toggle">
+                <i class="fa-solid fa-star easy"></i> <span class="space"></span> Q8] Write a program that converts Celcius readings to Farenheit reading.
+                <i class="fa fa-plus icon__last" aria-hidden="true"></i>
+            </button>
+            <div class="content__last scrolly">
+                <p>
+                <pre class="prettyprint" style="background-color: #272822;"><code class="language-c">
+ #include &lt;stdio.h>
+ int main()
+ {
+     // Formula to convert degree celcius to farenheit is = (0°C × 9/5) + 32
+     float temp;
+     printf("Enter the temperature in degree Celcius: \n");
+     scanf("%f", &temp);
+     printf("The Farenheit temperature of %f degree Celcius is %f Farenheit", temp, ((temp*1.8) + 32));
+     return 0;
+ }
+                    </code></pre>
+                </p>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <button class="toggle">
+                <i class="fa-solid fa-star easy"></i> <span class="space"></span> Q9] Write a program to calculate square root of a number.
+                <i class="fa fa-plus icon__last" aria-hidden="true"></i>
+            </button>
+            <div class="content__last scrolly">
+                <p>
+                <pre class="prettyprint" style="background-color: #272822;"><code class="language-c">
+ #include &lt;stdio.h>
+ #include &lt;math.h>
+    int main() {
+        int num;
+        double result;
+        printf("C Program to find square root \n");
+        printf("Enter a Number to find square root: ");
+        scanf("%d",&num);
+        result = sqrt(num);
+        printf("Square Root of %d is %.2f",num,result);
+        return 0;
+    }
                     </code></pre>
                 </p>
             </div>

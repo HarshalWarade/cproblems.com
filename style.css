@@ -86,19 +86,26 @@
     margin: 0 10px;
 }
 
+/* .easy
+{
+    color: #ff8c00;
+    text-shadow: 0 0 10px #ff8c00;
+} */
 .easy
 {
-    color: yellow;
+    color: lime;
+    text-shadow: 0 0 10px lime;
 }
 .medium
 {
-    color: green;
-}
-.hard
-{
-    color: red;
+    color: #4545ff;
+    text-shadow: 0 0 10px #4545ff;
 }
 .space
 {
     margin: 0 10px;
+}
+.littlespace
+{
+    margin: 0 2px;
 }
